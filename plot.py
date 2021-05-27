@@ -16,13 +16,13 @@ def plot_data(ax, title, path, bottom=False):
 def plot():
     data = json.loads(open('json.json').read())
     n = len(data)
-    fig, axes = plt.subplots(n)
+    fig, axes = plt.subplots(n, figsize=(8, 8))
     for i, (ax, d) in enumerate(zip(axes, data)):
         plot_data(ax,
                   d['location_human_readable'],
                   d['path'],
                   bottom=i==n-1)
-    plt.subplots_adjust(hspace=2)
-    # plt.tight_layout()
+    # plt.subplots_adjust(hspace=1)
+    plt.tight_layout()
     plt.savefig('plot.png', dpi=200)
-    # plt.show()
+    plt.show()
