@@ -16,7 +16,7 @@ def plot_data(ax, title, path, bottom=False):
 def plot():
     data = json.loads(open('json.json').read())
     n = len(data)
-    fig, axes = plt.subplots(n, figsize=(8, 8))
+    fig, axes = plt.subplots(n, figsize=(5, 10))
     for i, (ax, d) in enumerate(zip(axes, data)):
         plot_data(ax,
                   d['location_human_readable'],

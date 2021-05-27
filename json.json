@@ -18,6 +18,12 @@
     "path": "data/halifax.txt"
   },
   {
+    "location_human_readable": "Montreal, QC",
+    "latitude": 45.50169,
+    "longitude": -73.567253,
+    "path": "data/montreal.txt"
+  },
+  {
     "location_human_readable": "Thunder Bay, ON",
     "latitude": 48.380894,
     "longitude": -89.247681,
@@ -34,5 +40,11 @@
     "latitude": 42.3154,
     "longitude": -83.01067,
     "path": "data/windsor.txt"
+  },
+  {
+    "location_human_readable": "Winnipeg, MB",
+    "latitude": 49.900501,
+    "longitude": -97.139313,
+    "path": "data/winnipeg.txt"
   }
 ]
