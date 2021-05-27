@@ -18,12 +18,6 @@
     "path": "data/halifax.txt"
   },
   {
-    "location_human_readable": "Thunder Bay, ON",
-    "latitude": 48.380894,
-    "longitude": -89.247681,
-    "path": "data/thunder_bay.txt"
-  },
-  {
     "location_human_readable": "Toronto, ON",
     "latitude": 43.65107,
     "longitude": -79.347015,
