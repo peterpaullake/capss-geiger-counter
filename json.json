@@ -1,5 +1,11 @@
 [
   {
+    "location_human_readable": "Burnaby, BC",
+    "latitude": 49.277,
+    "longitude": -122.90931,
+    "path": "data/burnaby.txt"
+  },
+  {
     "location_human_readable": "Chernoff Hall, Queen's University, Kingston, ON",
     "latitude": 44.22459,
     "longitude": -76.49883,
@@ -34,6 +40,12 @@
     "latitude": 43.65107,
     "longitude": -79.347015,
     "path": "data/toronto.txt"
+  },
+  {
+    "location_human_readable": "Vancouver, BC",
+    "latitude": 49.28273,
+    "longitude": -123.120735,
+    "path": "data/vancouver.txt"
   },
   {
     "location_human_readable": "Windsor, ON",
