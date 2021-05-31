@@ -14,7 +14,7 @@ def plot():
     data = read_data()
     medians = np.asarray([np.median(d['counts']) for d in data])
 
-    fig, axes = plt.subplots(len(data), figsize=(5, 12))
+    fig, axes = plt.subplots(len(data), figsize=(8, 15))
     for i, data_id in enumerate(np.argsort(medians)):
         ax = axes[i]
         d = data[data_id]
