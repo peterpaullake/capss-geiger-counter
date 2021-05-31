@@ -30,6 +30,12 @@
     "path": "data/montreal.txt"
   },
   {
+    "location_human_readable": "Lethbridge, AB",
+    "latitude": 49.69458,
+    "longitude": -112.833809,
+    "path": "data/lethbridge.txt"
+  },
+  {
     "location_human_readable": "Thunder Bay, ON",
     "latitude": 48.380894,
     "longitude": -89.247681,

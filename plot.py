@@ -26,16 +26,3 @@ def plot():
     plt.tight_layout()
     plt.savefig('plot.png', dpi=200)
     plt.show()
-    return
-
-    n = len(data)
-    fig, axes = plt.subplots(n, figsize=(5, 10))
-    for i, (ax, d) in enumerate(zip(axes, data)):
-        plot_counts(ax,
-                    d['location_human_readable'],
-                    d['counts'],
-                    bottom=i==n-1)
-    # plt.subplots_adjust(hspace=1)
-    plt.tight_layout()
-    plt.savefig('plot.png', dpi=200)
-    plt.show()
